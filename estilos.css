@@ -1,0 +1,152 @@
+/*
+          fuentes
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Modern Antiqua', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Metal Mania', cursive;
+
+*/
+
+.nav-item{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    
+}
+.navbar{
+    background-color: black;
+    
+    
+}
+
+@font-face {
+    font-family: titulos;
+    src: url(fonts/abaddonll.ttf);
+    
+    
+}
+
+body{
+    background: -webkit-radial-gradient(center, circle, rgb(255, 255, 255), black);
+    background: -moz-radial-gradient(center, circle, rgb(255, 255, 255), black);
+    
+}
+
+h1{
+    font-family: titulos;
+    font-size: 50px;
+    color: black;
+    text-align: center;    
+    background-color: #b4b4b4;
+    padding: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.titulo{
+    font-family: titulos;
+    
+}
+#home{    
+    margin-top: 50px;
+}
+#home h1{
+    color: white;
+    background-color: black;
+}
+
+
+.cartel{
+    display: block;
+    margin: auto;
+    
+    
+}
+.btn{
+    
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    
+}
+.borde {
+    border: 2px;
+    border-color: white;    
+    border-style: solid;
+    margin: 15px;
+    padding: 15px;
+    
+}
+
+
+#shows{
+     
+    background-image: url(imagenes/9B7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+#imagenes{
+    background-image: url(imagenes/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.input-group {
+    margin: 10px auto;
+    width: 100%;
+}
+input.btn.btn-lg,
+input.btn.btn-lg:focus {
+    outline: none;
+    width: 40%;
+    height: 50px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+button.btn {
+    width: 20%;
+    height: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.formulario{
+    background: -webkit-radial-gradient(center, ellipse, rgba(32, 177, 209, 0.79), #16333c);
+    background: -moz-radial-gradient(center, circle, #e80f0f, rgba(15, 14, 14, 0.4));
+    padding: 20px;
+    color: #bee0ff;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 5px 10px #888888;    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.carousel-inner img {
+      width: 500px;
+      height: 100%;
+}
+
+.carousel-item{
+   background-color: rgba(26, 8, 247, 0.13);
+}
+
+.nombrecd{
+   font-family: 'Montserrat', sans-serif;
+    
+}
+
+    
