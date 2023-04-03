@@ -9,7 +9,7 @@ font-family: 'Metal Mania', cursive;
 */
 
 .nav-item{
-    font-size: 20px;
+    font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
     
@@ -35,17 +35,17 @@ body{
 
 h1{
     font-family: titulos;
-    font-size: 50px;
+    font-size: 2.5rem;
     color: black;
     text-align: center;    
     background-color: #b4b4b4;
     padding: 20px;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;    
 }
 
 .titulo{
     font-family: titulos;
+    font-size: 3.6rem;
     
 }
 #home{    
@@ -66,15 +66,20 @@ h1{
 .btn{
     
     font-family: 'Montserrat', sans-serif;
-    margin: 5px;
-    
+    margin: 5px;    
 }
+
+.btn:hover{
+    color: #e80f0f;
+}
+
 .borde {
     border: 2px;
     border-color: white;    
     border-style: solid;
     margin: 15px;
     padding: 15px;
+    background-color: rgba(7, 2, 1, 0.5);
     
 }
 
@@ -99,6 +104,20 @@ section {
     padding: 80px 0;
     text-align: center;
 }
+
+.cd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+iframe{
+    height: 70%;
+    width: 70%;
+}
+
 
 .input-group {
     margin: 10px auto;
@@ -147,6 +166,10 @@ footer{
 .nombrecd{
    font-family: 'Montserrat', sans-serif;
     
+}
+
+#disclaimer{
+    color: black;
 }
 
     
